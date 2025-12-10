@@ -51,9 +51,9 @@ export const Hero = () => {
             {/* Main Heading */}
             <div className="space-y-4 animate-in fade-in slide-in-from-left-8 duration-700" style={{ animationDelay: '100ms' }}>
               <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-primary-foreground leading-[1.1] tracking-tight">
-                Crafting{" "}
+                Transforming{" "}
                 <span className="relative inline-block">
-                  <span className="text-accent">Excellence</span>
+                  <span className="text-accent">Spaces</span>
                   <svg className="absolute -bottom-2 left-0 w-full" viewBox="0 0 200 12" fill="none">
                     <path d="M2 10C50 4 150 4 198 10" stroke="hsl(48 95% 53%)" strokeWidth="3" strokeLinecap="round"/>
                   </svg>
