@@ -9,12 +9,12 @@ import customFurniture from "@/assets/custom-furniture.jpg";
 import ceilingWork from "@/assets/ceiling-design-work.jpg";
 import lightingDesign from "@/assets/lighting-design.jpg";
 import outdoorFurniture from "@/assets/outdoor-furniture.jpg";
-
+import fabrication from "@/assets/sndard-iness-ful2.jpg";
 const services = [
   {
     icon: Building2,
-    title: "Construction & Fabrication",
-    description: "Professional metalwork, welding, and structural fabrication for residential and commercial projects.",
+    title: "Construction",
+    description: "Professional metalwork and welding services for residential and commercial projects, delivering durable, high-quality structures and customized solutions to meet every client’s needs",
     image: constructionWork,
   },
   {
@@ -46,6 +46,12 @@ const services = [
     title: "Outdoor Furniture",
     description: "Durable outdoor furniture and seating solutions designed for Kenyan weather conditions.",
     image: outdoorFurniture,
+  },
+  {
+    icon: Hammer,
+    title: "Fabrication Services",
+    description: "Comprehensive fabrication services including metalwork, welding, and custom designs for various applications.",
+    image: fabrication,
   },
 ];
 

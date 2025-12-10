@@ -1,4 +1,5 @@
 import { Mail, MapPin, Phone } from "lucide-react";
+import krisilLogo from "@/assets/krisil-logo.png";
 
 export const Footer = () => {
   return (
@@ -67,7 +68,7 @@ export const Footer = () => {
               <li className="flex items-start gap-2">
                 <MapPin className="h-5 w-5 mt-0.5 flex-shrink-0" />
                 <span className="text-primary-foreground/80">
-                  P.O BOX 20657-00200<br />City Square
+                  429 Monrovia Street<br />P.O BOX 20657-00200<br />City Square
                 </span>
               </li>
               <li className="flex items-center gap-2">
@@ -87,6 +88,12 @@ export const Footer = () => {
         </div>
 
         <div className="border-t border-primary-foreground/20 pt-8 text-center">
+          <div className="flex items-center justify-center gap-4 mb-4">
+            <img src={krisilLogo} alt="Krisil Logo" className="h-8 w-auto" />
+            <p className="text-primary-foreground/60">
+              Designed and developed by Krisil
+            </p>
+          </div>
           <p className="text-primary-foreground/60">
             © 2025 Unispace Opportunities Ltd. All rights reserved.
           </p>

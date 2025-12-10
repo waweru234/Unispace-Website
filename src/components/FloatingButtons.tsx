@@ -29,18 +29,18 @@ export const FloatingButtons = () => {
       {/* Cart Button - Top Right */}
       <button
         onClick={() => navigate("/cart")}
-        className="fixed top-20 right-6 z-50 bg-primary hover:bg-primary/90 text-primary-foreground rounded-2xl shadow-2xl hover:shadow-xl transition-all duration-300 flex items-center gap-3 px-6 py-4 hover:scale-105 group"
+        className="fixed top-20 right-6 z-50 bg-primary hover:bg-primary/90 text-primary-foreground rounded-2xl shadow-2xl hover:shadow-xl transition-all duration-300 flex items-center gap-2 px-3 py-2 hover:scale-105 group"
       >
         <div className="relative">
-          <ShoppingCart className="h-6 w-6 group-hover:scale-110 transition-transform" />
+          <ShoppingCart className="h-5 w-5 group-hover:scale-110 transition-transform" />
           {cartCount > 0 && (
-            <div className="absolute -top-3 -right-3 bg-accent text-accent-foreground rounded-full min-w-[24px] h-6 flex items-center justify-center px-2 text-sm font-bold shadow-lg animate-pulse">
+            <div className="absolute -top-2 -right-2 bg-accent text-accent-foreground rounded-full min-w-[20px] h-5 flex items-center justify-center px-1 text-xs font-bold shadow-lg animate-pulse">
               {cartCount}
             </div>
           )}
         </div>
         <div className="flex flex-col items-start">
-          <span className="text-sm font-semibold">Shopping Cart</span>
+          <span className="text-xs font-semibold">Shopping Cart</span>
           <span className="text-xs opacity-90">
             {cartCount === 0 ? "Empty" : `${cartCount} ${cartCount === 1 ? "item" : "items"}`}
           </span>
