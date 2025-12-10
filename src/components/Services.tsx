@@ -5,9 +5,15 @@ import { Building2, Hammer, Lightbulb, PaintBucket, Trees, Wrench, ArrowRight } 
 const services = [
   {
     icon: Building2,
-    title: "Commercial Construction",
+    title: "Construction",
     description: "From office buildings to retail spaces, we create structures that inspire and function flawlessly.",
     color: "from-green-medium to-primary",
+  },
+    {
+    icon: PaintBucket,
+    title: "Interior Design",
+    description: "Transform your spaces with our expert design solutions tailored to your vision.",
+    color: "from-primary to-green-medium",
   },
   {
     icon: Hammer,
@@ -15,12 +21,7 @@ const services = [
     description: "Handcrafted wooden furniture and installations that blend beauty with durability.",
     color: "from-accent to-gold-dark",
   },
-  {
-    icon: PaintBucket,
-    title: "Interior Design",
-    description: "Transform your spaces with our expert design solutions tailored to your vision.",
-    color: "from-primary to-green-medium",
-  },
+
   {
     icon: Lightbulb,
     title: "Ceiling & Lighting",
